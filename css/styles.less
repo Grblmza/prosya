@@ -12,7 +12,7 @@ body {
   margin: 0;
 }
 
-.bg-blue{
+.bg-blue {
   background: @blue;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .header {
-  background-image:  url("../img/bgc.png");
+  background-image: url("../img/bgc.png");
   background-size: cover;
 }
 
@@ -135,4 +135,36 @@ h1,
 
 .arrow {
   padding-left: 10px;
+}
+
+.slide-2 {
+  padding: 75px 0;
+
+  .menu h3 {
+    font-size: 30px;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .menu ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+
+    li {
+      margin-bottom: 15px;
+    }
+
+    a {
+      text-decoration: none;
+      font-size: 16px;
+
+      &:hover {
+        color: #FFC41E;
+        text-decoration: underline;
+      }
+    }
+  }
 }
